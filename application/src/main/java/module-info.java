@@ -1,5 +1,4 @@
 module com.sergiomartinrubio.application {
-    // it requires to add the player module as a Maven dependency
     requires com.sergiomartinrubio.api;
 
     requires spring.boot;
