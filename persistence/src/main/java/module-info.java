@@ -5,7 +5,6 @@ module com.sergiomartinrubio.persistence {
     requires java.persistence;
     requires com.fasterxml.jackson.databind;
 
-    exports com.sergiomartinrubio.persistence;
     exports com.sergiomartinrubio.persistence.repository;
     exports com.sergiomartinrubio.persistence.entity;
 }
