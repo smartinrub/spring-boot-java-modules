@@ -2,34 +2,30 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <artifactId>player</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>player</name>
+    <description>Demo project for Spring Boot</description>
+
     <parent>
         <groupId>com.sergiomartinrubio</groupId>
         <artifactId>spring-boot-java-modules</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>api</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>api</name>
-    <description>Demo project for Spring Boot</description>
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
 
+    <properties>
+        <java.version>11</java.version>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+    </properties>
+
+    <dependencies>
         <!--		Internal Dependencies		-->
         <dependency>
             <groupId>com.sergiomartinrubio</groupId>
-            <artifactId>player</artifactId>
+            <artifactId>team</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
-        </dependency>
-
-        <!--		Testing Dependencies		-->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
         </dependency>
     </dependencies>
 

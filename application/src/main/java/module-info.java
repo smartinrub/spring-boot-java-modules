@@ -8,8 +8,6 @@ module com.sergiomartinrubio.application {
     requires spring.core;
     requires spring.context;
 
-    exports com.sergiomartinrubio.application;
-
     // requires deep reflection
     opens com.sergiomartinrubio.application to spring.core;
 }
