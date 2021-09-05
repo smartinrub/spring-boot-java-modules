@@ -2,6 +2,14 @@
 
 ## Run Locally
 
+1. Run PostgreSQL:
+
+```sh
+docker run -d --name java-modules-postgres -p 5432:5432 -e POSTGRES_USER=user -e POSTGRES_PASSWORD=password -e POSTGRES_DB=nba postgres:latest
+```
+
+2. Run the Spring Boot application:
+
 ```sh
 mvn spring-boot:run
 ```
