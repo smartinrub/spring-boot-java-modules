@@ -23,7 +23,5 @@ public class PlayerService {
         }
 
         throw new RuntimeException("Player not found.");
-//        return playerRepository.findById(id);
-//        return new Player(UUID.randomUUID(), "Sergio", new Team("Awesome Team", "Malaga"));
     }
 }
