@@ -20,7 +20,7 @@
         <!--		Internal Dependencies		-->
         <dependency>
             <groupId>com.sergiomartinrubio</groupId>
-            <artifactId>player</artifactId>
+            <artifactId>model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
