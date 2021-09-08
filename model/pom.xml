@@ -23,7 +23,7 @@
         <!--		Internal Dependencies		-->
         <dependency>
             <groupId>com.sergiomartinrubio</groupId>
-            <artifactId>team</artifactId>
+            <artifactId>persistence</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
